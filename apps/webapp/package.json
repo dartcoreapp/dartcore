@@ -8,6 +8,9 @@
     "react-dom": "19.0.0"
   },
   "scripts": {
+  "dev": "nx serve webapp",
+  "build": "nx build webapp",
+  "start": "nx serve webapp --prod",
   "vercel-build": "nx build webapp --prod"
-  }
+}
 }

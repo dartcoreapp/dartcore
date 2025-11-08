@@ -1,0 +1,428 @@
+.
+├── android
+│   ├── app
+│   │   ├── build.gradle
+│   │   ├── debug.keystore
+│   │   ├── proguard-rules.pro
+│   │   └── src
+│   │       ├── debug
+│   │       └── main
+│   ├── build
+│   │   ├── generated
+│   │   │   └── autolinking
+│   │   └── reports
+│   │       └── problems
+│   ├── build.gradle
+│   ├── gradle
+│   │   └── wrapper
+│   │       ├── gradle-wrapper.jar
+│   │       └── gradle-wrapper.properties
+│   ├── gradle.properties
+│   ├── gradlew
+│   ├── gradlew.bat
+│   └── settings.gradle
+├── App.js
+├── App.js.save
+├── app.json
+├── apps
+│   ├── dartcore
+│   │   ├── android
+│   │   │   ├── app
+│   │   │   ├── build
+│   │   │   ├── build.gradle
+│   │   │   ├── gradle
+│   │   │   ├── gradle.properties
+│   │   │   ├── gradlew
+│   │   │   ├── gradlew.bat
+│   │   │   └── settings.gradle
+│   │   ├── App.js
+│   │   ├── app.json
+│   │   ├── assets
+│   │   │   ├── fonts
+│   │   │   └── images
+│   │   ├── eas.json
+│   │   ├── eslint.config.mjs
+│   │   ├── index.js
+│   │   ├── ios
+│   │   │   ├── build
+│   │   │   ├── Dartcore
+│   │   │   ├── Dartcore.xcodeproj
+│   │   │   ├── Dartcore.xcworkspace
+│   │   │   ├── Podfile
+│   │   │   ├── Podfile.lock
+│   │   │   ├── Podfile.properties.json
+│   │   │   └── Pods
+│   │   ├── jest.config.ts
+│   │   ├── jest.resolver.js
+│   │   ├── metro.config.js
+│   │   ├── package.json
+│   │   ├── src
+│   │   │   ├── app
+│   │   │   └── test-setup.ts
+│   │   ├── tsconfig.app.json
+│   │   ├── tsconfig.json
+│   │   └── tsconfig.spec.json
+│   └── webapp
+│       ├── eslint.config.mjs
+│       ├── index.d.ts
+│       ├── next-env.d.ts
+│       ├── next.config.js
+│       ├── package.json
+│       ├── project.json
+│       ├── public
+│       │   └── favicon.ico
+│       ├── src
+│       │   └── app
+│       └── tsconfig.json
+├── babel.config.json
+├── eslint.config.mjs
+├── ios
+│   ├── build
+│   │   └── generated
+│   │       └── ios
+│   ├── dartcoresource
+│   │   ├── AppDelegate.swift
+│   │   ├── dartcoresource-Bridging-Header.h
+│   │   ├── dartcoresource.entitlements
+│   │   ├── Images.xcassets
+│   │   │   ├── AppIcon.appiconset
+│   │   │   ├── Contents.json
+│   │   │   └── SplashScreenBackground.colorset
+│   │   ├── Info.plist
+│   │   ├── PrivacyInfo.xcprivacy
+│   │   ├── SplashScreen.storyboard
+│   │   └── Supporting
+│   │       └── Expo.plist
+│   ├── dartcoresource.xcodeproj
+│   │   ├── project.pbxproj
+│   │   ├── project.xcworkspace
+│   │   │   ├── contents.xcworkspacedata
+│   │   │   └── xcshareddata
+│   │   └── xcshareddata
+│   │       └── xcschemes
+│   ├── dartcoresource.xcworkspace
+│   │   ├── contents.xcworkspacedata
+│   │   └── xcshareddata
+│   │       └── swiftpm
+│   ├── Podfile
+│   ├── Podfile.lock
+│   ├── Podfile.properties.json
+│   └── Pods
+│       ├── boost
+│       │   ├── boost
+│       │   ├── LICENSE_1_0.txt
+│       │   └── README.md
+│       ├── DoubleConversion
+│       │   ├── double-conversion
+│       │   ├── LICENSE
+│       │   └── README
+│       ├── fast_float
+│       │   ├── include
+│       │   ├── LICENSE-APACHE
+│       │   └── README.md
+│       ├── fmt
+│       │   ├── include
+│       │   ├── LICENSE
+│       │   ├── README.md
+│       │   └── src
+│       ├── glog
+│       │   ├── COPYING
+│       │   ├── README
+│       │   ├── README.windows
+│       │   └── src
+│       ├── Headers
+│       │   ├── Private
+│       │   └── Public
+│       ├── hermes-engine
+│       │   ├── destroot
+│       │   └── LICENSE
+│       ├── hermes-engine-artifacts
+│       │   ├── hermes-ios-0.79.3-debug.tar.gz
+│       │   └── hermes-ios-0.79.3-release.tar.gz
+│       ├── Local Podspecs
+│       │   ├── boost.podspec.json
+│       │   ├── DoubleConversion.podspec.json
+│       │   ├── EXConstants.podspec.json
+│       │   ├── Expo.podspec.json
+│       │   ├── ExpoAsset.podspec.json
+│       │   ├── ExpoFileSystem.podspec.json
+│       │   ├── ExpoFont.podspec.json
+│       │   ├── ExpoKeepAwake.podspec.json
+│       │   ├── ExpoModulesCore.podspec.json
+│       │   ├── ExpoSplashScreen.podspec.json
+│       │   ├── ExpoSystemUI.podspec.json
+│       │   ├── fast_float.podspec.json
+│       │   ├── FBLazyVector.podspec.json
+│       │   ├── fmt.podspec.json
+│       │   ├── glog.podspec.json
+│       │   ├── hermes-engine.podspec.json
+│       │   ├── RCT-Folly.podspec.json
+│       │   ├── RCTDeprecation.podspec.json
+│       │   ├── RCTRequired.podspec.json
+│       │   ├── RCTTypeSafety.podspec.json
+│       │   ├── React-callinvoker.podspec.json
+│       │   ├── React-Core.podspec.json
+│       │   ├── React-CoreModules.podspec.json
+│       │   ├── React-cxxreact.podspec.json
+│       │   ├── React-debug.podspec.json
+│       │   ├── React-defaultsnativemodule.podspec.json
+│       │   ├── React-domnativemodule.podspec.json
+│       │   ├── React-Fabric.podspec.json
+│       │   ├── React-FabricComponents.podspec.json
+│       │   ├── React-FabricImage.podspec.json
+│       │   ├── React-featureflags.podspec.json
+│       │   ├── React-featureflagsnativemodule.podspec.json
+│       │   ├── React-graphics.podspec.json
+│       │   ├── React-hermes.podspec.json
+│       │   ├── React-idlecallbacksnativemodule.podspec.json
+│       │   ├── React-ImageManager.podspec.json
+│       │   ├── React-jserrorhandler.podspec.json
+│       │   ├── React-jsi.podspec.json
+│       │   ├── React-jsiexecutor.podspec.json
+│       │   ├── React-jsinspector.podspec.json
+│       │   ├── React-jsinspectortracing.podspec.json
+│       │   ├── React-jsitooling.podspec.json
+│       │   ├── React-jsitracing.podspec.json
+│       │   ├── React-logger.podspec.json
+│       │   ├── React-Mapbuffer.podspec.json
+│       │   ├── React-microtasksnativemodule.podspec.json
+│       │   ├── React-NativeModulesApple.podspec.json
+│       │   ├── React-oscompat.podspec.json
+│       │   ├── React-perflogger.podspec.json
+│       │   ├── React-performancetimeline.podspec.json
+│       │   ├── React-RCTActionSheet.podspec.json
+│       │   ├── React-RCTAnimation.podspec.json
+│       │   ├── React-RCTAppDelegate.podspec.json
+│       │   ├── React-RCTBlob.podspec.json
+│       │   ├── React-RCTFabric.podspec.json
+│       │   ├── React-RCTFBReactNativeSpec.podspec.json
+│       │   ├── React-RCTImage.podspec.json
+│       │   ├── React-RCTLinking.podspec.json
+│       │   ├── React-RCTNetwork.podspec.json
+│       │   ├── React-RCTRuntime.podspec.json
+│       │   ├── React-RCTSettings.podspec.json
+│       │   ├── React-RCTText.podspec.json
+│       │   ├── React-RCTVibration.podspec.json
+│       │   ├── React-rendererconsistency.podspec.json
+│       │   ├── React-renderercss.podspec.json
+│       │   ├── React-rendererdebug.podspec.json
+│       │   ├── React-rncore.podspec.json
+│       │   ├── React-RuntimeApple.podspec.json
+│       │   ├── React-RuntimeCore.podspec.json
+│       │   ├── React-runtimeexecutor.podspec.json
+│       │   ├── React-RuntimeHermes.podspec.json
+│       │   ├── React-runtimescheduler.podspec.json
+│       │   ├── React-timing.podspec.json
+│       │   ├── React-utils.podspec.json
+│       │   ├── React.podspec.json
+│       │   ├── ReactAppDependencyProvider.podspec.json
+│       │   ├── ReactCodegen.podspec.json
+│       │   ├── ReactCommon.podspec.json
+│       │   ├── RNSVG.podspec.json
+│       │   └── Yoga.podspec.json
+│       ├── Manifest.lock
+│       ├── Pods.xcodeproj
+│       │   ├── project.pbxproj
+│       │   └── xcuserdata
+│       ├── RCT-Folly
+│       │   ├── folly
+│       │   ├── LICENSE
+│       │   └── README.md
+│       ├── SocketRocket
+│       │   ├── LICENSE
+│       │   ├── LICENSE-examples
+│       │   ├── README.md
+│       │   └── SocketRocket
+│       └── Target Support Files
+│           ├── boost
+│           ├── DoubleConversion
+│           ├── EXConstants
+│           ├── Expo
+│           ├── ExpoAsset
+│           ├── ExpoFileSystem
+│           ├── ExpoFont
+│           ├── ExpoKeepAwake
+│           ├── ExpoModulesCore
+│           ├── ExpoSplashScreen
+│           ├── ExpoSystemUI
+│           ├── fast_float
+│           ├── FBLazyVector
+│           ├── fmt
+│           ├── glog
+│           ├── hermes-engine
+│           ├── Pods-dartcoresource
+│           ├── RCT-Folly
+│           ├── RCTDeprecation
+│           ├── RCTRequired
+│           ├── RCTTypeSafety
+│           ├── React
+│           ├── React-callinvoker
+│           ├── React-Core
+│           ├── React-CoreModules
+│           ├── React-cxxreact
+│           ├── React-debug
+│           ├── React-defaultsnativemodule
+│           ├── React-domnativemodule
+│           ├── React-Fabric
+│           ├── React-FabricComponents
+│           ├── React-FabricImage
+│           ├── React-featureflags
+│           ├── React-featureflagsnativemodule
+│           ├── React-graphics
+│           ├── React-hermes
+│           ├── React-idlecallbacksnativemodule
+│           ├── React-ImageManager
+│           ├── React-jserrorhandler
+│           ├── React-jsi
+│           ├── React-jsiexecutor
+│           ├── React-jsinspector
+│           ├── React-jsinspectortracing
+│           ├── React-jsitooling
+│           ├── React-jsitracing
+│           ├── React-logger
+│           ├── React-Mapbuffer
+│           ├── React-microtasksnativemodule
+│           ├── React-NativeModulesApple
+│           ├── React-oscompat
+│           ├── React-perflogger
+│           ├── React-performancetimeline
+│           ├── React-RCTActionSheet
+│           ├── React-RCTAnimation
+│           ├── React-RCTAppDelegate
+│           ├── React-RCTBlob
+│           ├── React-RCTFabric
+│           ├── React-RCTFBReactNativeSpec
+│           ├── React-RCTImage
+│           ├── React-RCTLinking
+│           ├── React-RCTNetwork
+│           ├── React-RCTRuntime
+│           ├── React-RCTSettings
+│           ├── React-RCTText
+│           ├── React-RCTVibration
+│           ├── React-rendererconsistency
+│           ├── React-renderercss
+│           ├── React-rendererdebug
+│           ├── React-rncore
+│           ├── React-RuntimeApple
+│           ├── React-RuntimeCore
+│           ├── React-runtimeexecutor
+│           ├── React-RuntimeHermes
+│           ├── React-runtimescheduler
+│           ├── React-timing
+│           ├── React-utils
+│           ├── ReactAppDependencyProvider
+│           ├── ReactCodegen
+│           ├── ReactCommon
+│           ├── RNSVG
+│           ├── SocketRocket
+│           └── Yoga
+├── jest.config.ts
+├── jest.preset.js
+├── libs
+│   └── shared
+│       ├── eslint.config.mjs
+│       ├── package.json
+│       ├── project.json
+│       ├── README.md
+│       ├── src
+│       │   ├── index.ts
+│       │   └── lib
+│       ├── tsconfig.json
+│       └── tsconfig.lib.json
+├── mobile
+│   ├── android
+│   │   ├── app
+│   │   │   ├── build.gradle
+│   │   │   ├── debug.keystore
+│   │   │   ├── proguard-rules.pro
+│   │   │   └── src
+│   │   ├── build.gradle
+│   │   ├── gradle
+│   │   │   └── wrapper
+│   │   ├── gradle.properties
+│   │   ├── gradlew
+│   │   ├── gradlew.bat
+│   │   └── settings.gradle
+│   ├── app.json
+│   ├── Gemfile
+│   ├── index.html
+│   ├── ios
+│   │   ├── build
+│   │   │   └── generated
+│   │   ├── Mobile
+│   │   │   ├── AppDelegate.swift
+│   │   │   ├── Images.xcassets
+│   │   │   ├── Info.plist
+│   │   │   ├── LaunchScreen.storyboard
+│   │   │   └── PrivacyInfo.xcprivacy
+│   │   ├── Mobile.xcodeproj
+│   │   │   ├── project.pbxproj
+│   │   │   └── xcshareddata
+│   │   ├── Mobile.xcworkspace
+│   │   │   └── contents.xcworkspacedata
+│   │   ├── Podfile
+│   │   ├── Podfile.lock
+│   │   └── Pods
+│   │       ├── boost
+│   │       ├── DoubleConversion
+│   │       ├── fast_float
+│   │       ├── fmt
+│   │       ├── glog
+│   │       ├── Headers
+│   │       ├── hermes-engine
+│   │       ├── hermes-engine-artifacts
+│   │       ├── Local Podspecs
+│   │       ├── Manifest.lock
+│   │       ├── Pods.xcodeproj
+│   │       ├── RCT-Folly
+│   │       ├── SocketRocket
+│   │       └── Target Support Files
+│   ├── metro.config.js
+│   ├── package.json
+│   ├── public
+│   │   └── favicon.ico
+│   ├── src
+│   │   ├── app
+│   │   │   └── App.tsx
+│   │   ├── assets
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── main-web.tsx
+│   │   └── main.tsx
+│   ├── tsconfig.app.json
+│   ├── tsconfig.json
+│   ├── vite.config.ts
+│   └── webpack.config.js
+├── nx.json
+├── nx.jsonn
+├── package-lock.json
+├── package.json
+├── README.md
+├── tools
+│   └── scripts
+│       └── eas-build-post-install.mjs
+├── tree.txt
+├── tsconfig.base.json
+├── tsconfig.json
+└── web
+    ├── eslint.config.mjs
+    ├── index.d.ts
+    ├── jest.config.ts
+    ├── next-env.d.ts
+    ├── next.config.js
+    ├── package.json
+    ├── public
+    │   └── favicon.ico
+    ├── specs
+    │   └── index.spec.tsx
+    ├── src
+    │   └── app
+    │       ├── api
+    │       ├── global.css
+    │       ├── layout.tsx
+    │       ├── page.module.css
+    │       └── page.tsx
+    ├── tsconfig.json
+    └── tsconfig.spec.json
+
+203 directories, 223 files
