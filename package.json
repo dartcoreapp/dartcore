@@ -78,7 +78,7 @@
     "jsdom": "~22.1.0",
     "metro-config": "~0.82.4",
     "metro-resolver": "~0.82.4",
-    "nx": "^21.6.8",
+    "nx": "^22.0.2",
     "prettier": "^2.6.2",
     "react-native-svg-web": "~1.0.9",
     "react-refresh": "^0.10.0",
