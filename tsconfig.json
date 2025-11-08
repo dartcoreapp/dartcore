@@ -5,6 +5,18 @@
   "references": [
     {
       "path": "./apps/dartcore"
+    },
+    {
+      "path": "./web"
+    },
+    {
+      "path": "./mobile"
+    },
+    {
+      "path": "./apps/webapp"
+    },
+    {
+      "path": "./shared"
     }
   ]
 }

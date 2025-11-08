@@ -1,0 +1,22 @@
+{
+  "name": "shared",
+  "root": "libs/shared",
+  "sourceRoot": "libs/shared/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "options": {
+        "outputPath": "dist/libs/shared",
+        "tsConfig": "libs/shared/tsconfig.lib.json",
+        "main": "libs/shared/src/lib/shared.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/shared/**/*.ts"]
+      }
+    }
+  }
+}

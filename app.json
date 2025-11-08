@@ -1,0 +1,19 @@
+{
+  "name": "DartCore",
+  "slug": "dartcore",
+  "ios": {
+    "bundleIdentifier": "com.dartcore.dartcore"
+  },
+  "android": {
+    "package": "com.dartcore.dartcore",
+    "intentFilters": [
+  {
+    "action": "VIEW",
+    "data": {
+      "scheme": "dartcore"
+    },
+    "category": ["BROWSABLE", "DEFAULT"]
+  }
+]
+  }
+}
