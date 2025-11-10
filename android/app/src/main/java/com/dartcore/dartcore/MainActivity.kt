@@ -1,4 +1,4 @@
-package com.anonymous.dartcoresource
+package com.dartcore.dartcore
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

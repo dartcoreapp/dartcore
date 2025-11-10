@@ -1,4 +1,4 @@
-package com.anonymous.dartcoresource
+package com.dartcore.dartcore
 
 import android.app.Application
 import android.content.res.Configuration

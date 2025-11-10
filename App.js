@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>This is Dartcore!</Text>
+      <Text style={styles.text}>This is Dartcore! 1</Text>
     </View>
   );
 }

@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03F452BF556E17DD215B42C6 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7904B34D2DEEB3149A14161 /* ExpoModulesProvider.swift */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		55403B4AEF812178D24DC8D8 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A302B4E6267771139CEE398A /* PrivacyInfo.xcprivacy */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		C7AC6C6100C3F2D835F4B838 /* libPods-dartcoresource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9F495DA0D24C77FEB6DFAC /* libPods-dartcoresource.a */; };
-		D535B7BDAF520BC8BF9EEEC6 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C07002F0CE797E2C4A57FA9 /* ExpoModulesProvider.swift */; };
+		C1FAC7FFD9237468A92ADDC9 /* libPods-DartCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F7A12A6AE976DBEDCD16AF /* libPods-DartCore.a */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
+		FC626923705C60F53F64FCAC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3B1ABA216E4DD1D23937BA81 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13B07F961A680F5B00A75B9A /* dartcoresource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dartcoresource.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = dartcoresource/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = dartcoresource/Info.plist; sourceTree = "<group>"; };
-		1C07002F0CE797E2C4A57FA9 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-dartcoresource/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		2B9F495DA0D24C77FEB6DFAC /* libPods-dartcoresource.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dartcoresource.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8964573C9572661828BA8B97 /* Pods-dartcoresource.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dartcoresource.debug.xcconfig"; path = "Target Support Files/Pods-dartcoresource/Pods-dartcoresource.debug.xcconfig"; sourceTree = "<group>"; };
-		A302B4E6267771139CEE398A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = dartcoresource/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = dartcoresource/SplashScreen.storyboard; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* DartCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DartCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DartCore/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DartCore/Info.plist; sourceTree = "<group>"; };
+		23F7A12A6AE976DBEDCD16AF /* libPods-DartCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DartCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1ABA216E4DD1D23937BA81 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = DartCore/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A50D41E215B3F3E380CBA10B /* Pods-DartCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DartCore.release.xcconfig"; path = "Target Support Files/Pods-DartCore/Pods-DartCore.release.xcconfig"; sourceTree = "<group>"; };
+		A7904B34D2DEEB3149A14161 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-DartCore/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = DartCore/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		DF67B4259178D256248162E0 /* Pods-dartcoresource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dartcoresource.release.xcconfig"; path = "Target Support Files/Pods-dartcoresource/Pods-dartcoresource.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = dartcoresource/AppDelegate.swift; sourceTree = "<group>"; };
-		F11748442D0722820044C1D9 /* dartcoresource-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "dartcoresource-Bridging-Header.h"; path = "dartcoresource/dartcoresource-Bridging-Header.h"; sourceTree = "<group>"; };
+		EE20B0A9D9A955961EF4300F /* Pods-DartCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DartCore.debug.xcconfig"; path = "Target Support Files/Pods-DartCore/Pods-DartCore.debug.xcconfig"; sourceTree = "<group>"; };
+		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = DartCore/AppDelegate.swift; sourceTree = "<group>"; };
+		F11748442D0722820044C1D9 /* DartCore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DartCore-Bridging-Header.h"; path = "DartCore/DartCore-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,34 +37,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7AC6C6100C3F2D835F4B838 /* libPods-dartcoresource.a in Frameworks */,
+				C1FAC7FFD9237468A92ADDC9 /* libPods-DartCore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B07FAE1A68108700A75B9A /* dartcoresource */ = {
+		13B07FAE1A68108700A75B9A /* DartCore */ = {
 			isa = PBXGroup;
 			children = (
 				F11748412D0307B40044C1D9 /* AppDelegate.swift */,
-				F11748442D0722820044C1D9 /* dartcoresource-Bridging-Header.h */,
+				F11748442D0722820044C1D9 /* DartCore-Bridging-Header.h */,
 				BB2F792B24A3F905000567C9 /* Supporting */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				A302B4E6267771139CEE398A /* PrivacyInfo.xcprivacy */,
+				3B1ABA216E4DD1D23937BA81 /* PrivacyInfo.xcprivacy */,
 			);
-			name = dartcoresource;
+			name = DartCore;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				2B9F495DA0D24C77FEB6DFAC /* libPods-dartcoresource.a */,
+				23F7A12A6AE976DBEDCD16AF /* libPods-DartCore.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C3D9AD8911AAC4C93A2FB46 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				93B670689B890CC857D64073 /* DartCore */,
+			);
+			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -77,12 +85,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* dartcoresource */,
+				13B07FAE1A68108700A75B9A /* DartCore */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				C290599DF80554E490A16714 /* Pods */,
-				A00AD0DCB5B072A1B5188539 /* ExpoModulesProviders */,
+				9DCACEE675EDE8D808F3661C /* Pods */,
+				3C3D9AD8911AAC4C93A2FB46 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -92,17 +100,27 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* dartcoresource.app */,
+				13B07F961A680F5B00A75B9A /* DartCore.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A00AD0DCB5B072A1B5188539 /* ExpoModulesProviders */ = {
+		93B670689B890CC857D64073 /* DartCore */ = {
 			isa = PBXGroup;
 			children = (
-				FC2B64D4DF963263AA5D61F9 /* dartcoresource */,
+				A7904B34D2DEEB3149A14161 /* ExpoModulesProvider.swift */,
 			);
-			name = ExpoModulesProviders;
+			name = DartCore;
+			sourceTree = "<group>";
+		};
+		9DCACEE675EDE8D808F3661C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE20B0A9D9A955961EF4300F /* Pods-DartCore.debug.xcconfig */,
+				A50D41E215B3F3E380CBA10B /* Pods-DartCore.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
@@ -111,50 +129,32 @@
 				BB2F792C24A3F905000567C9 /* Expo.plist */,
 			);
 			name = Supporting;
-			path = dartcoresource/Supporting;
-			sourceTree = "<group>";
-		};
-		C290599DF80554E490A16714 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8964573C9572661828BA8B97 /* Pods-dartcoresource.debug.xcconfig */,
-				DF67B4259178D256248162E0 /* Pods-dartcoresource.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		FC2B64D4DF963263AA5D61F9 /* dartcoresource */ = {
-			isa = PBXGroup;
-			children = (
-				1C07002F0CE797E2C4A57FA9 /* ExpoModulesProvider.swift */,
-			);
-			name = dartcoresource;
+			path = DartCore/Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* dartcoresource */ = {
+		13B07F861A680F5B00A75B9A /* DartCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "dartcoresource" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DartCore" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				C56D1284DAE80D13FF874C65 /* [Expo] Configure project */,
+				C18B8844619BC2B984475F75 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				38397AC34D4728A43C0F4405 /* [CP] Embed Pods Frameworks */,
+				DF48DF66A9AC7B02820EE16A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = dartcoresource;
-			productName = dartcoresource;
-			productReference = 13B07F961A680F5B00A75B9A /* dartcoresource.app */;
+			name = DartCore;
+			productName = DartCore;
+			productReference = 13B07F961A680F5B00A75B9A /* DartCore.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -170,7 +170,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "dartcoresource" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DartCore" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -183,7 +183,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* dartcoresource */,
+				13B07F861A680F5B00A75B9A /* DartCore */,
 			);
 		};
 /* End PBXProject section */
@@ -196,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				55403B4AEF812178D24DC8D8 /* PrivacyInfo.xcprivacy in Resources */,
+				FC626923705C60F53F64FCAC /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,29 +233,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-dartcoresource-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DartCore-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		38397AC34D4728A43C0F4405 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dartcoresource/Pods-dartcoresource-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dartcoresource/Pods-dartcoresource-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
@@ -264,7 +246,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dartcoresource/Pods-dartcoresource-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-DartCore/Pods-DartCore-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/ExpoConstants_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/ExpoFileSystem/ExpoFileSystem_privacy.bundle",
@@ -291,10 +273,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dartcoresource/Pods-dartcoresource-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DartCore/Pods-DartCore-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C56D1284DAE80D13FF874C65 /* [Expo] Configure project */ = {
+		C18B8844619BC2B984475F75 /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -311,7 +293,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-dartcoresource/expo-configure-project.sh\"\n";
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-DartCore/expo-configure-project.sh\"\n";
+		};
+		DF48DF66A9AC7B02820EE16A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DartCore/Pods-DartCore-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DartCore/Pods-DartCore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -321,7 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				D535B7BDAF520BC8BF9EEEC6 /* ExpoModulesProvider.swift in Sources */,
+				03F452BF556E17DD215B42C6 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,18 +330,18 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8964573C9572661828BA8B97 /* Pods-dartcoresource.debug.xcconfig */;
+			baseConfigurationReference = EE20B0A9D9A955961EF4300F /* Pods-DartCore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = dartcoresource/dartcoresource.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DartCore/DartCore.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = dartcoresource/Info.plist;
+				INFOPLIST_FILE = DartCore/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -354,25 +354,25 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anonymous.-dartcoresource";
-				PRODUCT_NAME = "dartcoresource";
-				SWIFT_OBJC_BRIDGING_HEADER = "dartcoresource/dartcoresource-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dartcore.dartcore;
+				PRODUCT_NAME = DartCore;
+				SWIFT_OBJC_BRIDGING_HEADER = "DartCore/DartCore-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF67B4259178D256248162E0 /* Pods-dartcoresource.release.xcconfig */;
+			baseConfigurationReference = A50D41E215B3F3E380CBA10B /* Pods-DartCore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = dartcoresource/dartcoresource.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DartCore/DartCore.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = dartcoresource/Info.plist;
+				INFOPLIST_FILE = DartCore/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -385,11 +385,11 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anonymous.-dartcoresource";
-				PRODUCT_NAME = "dartcoresource";
-				SWIFT_OBJC_BRIDGING_HEADER = "dartcoresource/dartcoresource-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dartcore.dartcore;
+				PRODUCT_NAME = DartCore;
+				SWIFT_OBJC_BRIDGING_HEADER = "DartCore/DartCore-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "dartcoresource" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DartCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "dartcoresource" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DartCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
